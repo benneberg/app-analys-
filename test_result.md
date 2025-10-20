@@ -231,18 +231,12 @@ metadata:
   test_sequence: 1
 
 test_plan:
-  current_focus:
-    - "Projects Page - Empty State and Navigation"
-    - "Project Creation Flow"
-    - "Project Management (View/Edit/Delete)"
+  current_focus: []
+  stuck_tasks: 
     - "Experts Page and Management"
-    - "Settings Page Configuration"
-    - "Navigation and Layout"
-    - "Neo-Brutalism Design System"
     - "Data Persistence (localStorage)"
-  stuck_tasks: []
-  test_all: true
-  test_priority: "high_first"
+  test_all: false
+  test_priority: "stuck_first"
 
 agent_communication:
   - agent: "testing"
